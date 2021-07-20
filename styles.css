@@ -1,0 +1,22 @@
+body {
+    background-color: cornflowerblue;
+}
+
+#container{
+    margin-top: 299px;
+    text-align: center;
+}
+
+.p-3 {
+    padding: .5rem!important;
+    border-radius: 10px;
+    border: 0px;
+}
+
+#title-one{
+    padding-left: 625px;
+    padding-right: 625px;
+}
+.title{
+    text-align: left;
+}
