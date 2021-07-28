@@ -14,9 +14,30 @@ body {
 }
 
 #title-one{
-    padding-left: 625px;
-    padding-right: 625px;
+    /*padding-left: 690px;*/
+    /*padding-right: 690px;*/
+
+    padding-left: 508px;
 }
 .title{
     text-align: left;
 }
+
+.box{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border: 1px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 6;
+}
+
+.square{
+    width: 20px;
+    height: 20px;
+    background-color: lightgreen;
+}
+
