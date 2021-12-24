@@ -36,8 +36,11 @@ body {
 }
 
 .square{
-    width: 20px;
-    height: 20px;
+    width: 80px;
+    height: 80px;
+    display: block;
+    margin: auto;
     background-color: lightgreen;
+
 }
 
