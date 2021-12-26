@@ -10,11 +10,14 @@ anime({
 
 anime({
     targets: '#sam',
-    translateX: 250,
-    rotate: '1turn',
-    backgroundColor: '#fb1239',
-    loop: true,
-    duration: 5000
+        translateX: 300,
+        translateY: 100,
+        rotate: '1turn',
+        delay: 2000,
+        direction: 'alternate',
+        backgroundColor: '#fb1239',
+        loop: true,
+        easing: 'easeInOutSine'
 });
 
 
