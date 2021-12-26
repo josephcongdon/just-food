@@ -3,8 +3,9 @@ body {
 }
 
 #container{
-    margin-top: 299px;
-    text-align: center;
+  display: block;
+  margin: auto;
+    width: 50%;
 }
 
 .p-3 {
@@ -38,8 +39,7 @@ body {
 .square{
     width: 80px;
     height: 80px;
-    display: block;
-    margin: auto;
+
     background-color: lightgreen;
 
 }
