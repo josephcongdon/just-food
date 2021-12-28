@@ -7,6 +7,11 @@ body {
   margin: auto;
     width: 50%;
 }
+#containered{
+    position: absolute;
+    left: 50rem;
+    width: 50%;
+}
 
 .p-3 {
     padding: .5rem!important;
@@ -39,8 +44,18 @@ body {
 .square{
     width: 80px;
     height: 80px;
-
-    background-color: lightgreen;
-
+    border: double 6px transparent;
+    border-radius: 80px;
+    background-image: linear-gradient(lightgreen, lightgreen), radial-gradient(circle at top left, #f00,#3020ff);
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    /*border-image: linear-gradient(to right, darkblue, darkorchid) 1;*/
 }
 
+.squared{
+    width: 80px;
+    height: 80px;
+    bottom: 0;
+    position: absolute;
+    background-color: lightgreen;
+}

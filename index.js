@@ -10,14 +10,28 @@ anime({
 
 anime({
     targets: '#sam',
-        translateX: 300,
-        translateY: 100,
-        rotate: '1turn',
+        rotate: '2turn',
         delay: 2000,
         direction: 'alternate',
-        backgroundColor: '#fb1239',
+        backgroundImage: 'linear-gradient(red, red), radial-gradient(circle at top left, #f00,#3020ff)',
         loop: true,
         easing: 'easeInOutSine'
 });
 
+anime({
+    targets: '.squared',
+    translateX: 9
+});
+
+anime({
+    targets: '#samed',
+    translateX: 300,
+    translateY: 100,
+    rotate: '1turn',
+    delay: 2000,
+    direction: 'alternate',
+    backgroundColor: '#fb1239',
+    loop: true,
+    easing: 'easeInOutSine'
+});
 
