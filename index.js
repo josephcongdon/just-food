@@ -5,12 +5,12 @@ import anime from './node_modules/animejs/lib/anime.es.js';
 
 anime({
     targets: '.square',
-    translateX: 50
+
 });
 
 anime({
     targets: '#sam',
-        rotate: '2turn',
+        rotate: '4turn',
         delay: 2000,
         direction: 'alternate',
         backgroundImage: 'linear-gradient(red, red), radial-gradient(circle at top left, #f00,#3020ff)',
@@ -20,13 +20,14 @@ anime({
 
 anime({
     targets: '.squared',
-    translateX: 9
+    translateX: 0
+
 });
 
 anime({
     targets: '#samed',
-    translateX: 300,
-    translateY: 100,
+    translateX: 400,
+    translateY: 200,
     rotate: '1turn',
     delay: 2000,
     direction: 'alternate',

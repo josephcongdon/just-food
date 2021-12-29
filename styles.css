@@ -4,44 +4,25 @@ body {
 
 #container{
   display: block;
-  margin: auto;
-    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+
 }
 #containered{
-    position: absolute;
-    left: 50rem;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 25px;
     width: 50%;
 }
 
-.p-3 {
-    padding: .5rem!important;
-    border-radius: 10px;
-    border: 0px;
-}
 
-#title-one{
-    /*padding-left: 690px;*/
-    /*padding-right: 690px;*/
 
-    padding-left: 508px;
-}
-.title{
-    text-align: left;
-}
-
-.box{
-    width: 30px;
-    height: 30px;
-    background-color: red;
-    border: 1px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    z-index: 6;
-}
-
-.square{
+.circle{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
     width: 80px;
     height: 80px;
     border: double 6px transparent;
@@ -49,13 +30,34 @@ body {
     background-image: linear-gradient(lightgreen, lightgreen), radial-gradient(circle at top left, #f00,#3020ff);
     background-origin: border-box;
     background-clip: content-box, border-box;
-    /*border-image: linear-gradient(to right, darkblue, darkorchid) 1;*/
+}
+
+@keyframes pulse-green {
+    0% {
+        transform: scale(0.98);
+        box-shadow: 0 0 0 0 rgba(147, 250, 165, 0.7);
+        border-radius: 100px;
+    }
+
+    70% {
+        transform: scale(1);
+        box-shadow: 0 0 0 15px rgba(147, 250, 165, 0);
+        border-radius: 100px;
+    }
+
+    100% {
+        transform: scale(0.98);
+        box-shadow: 0 0 0 0 rgba(147, 250, 165, 0);
+        border-radius: 100px;
+    }
 }
 
 .squared{
     width: 80px;
     height: 80px;
-    bottom: 0;
-    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-color: lightgreen;
+
 }
